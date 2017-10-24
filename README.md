@@ -1,2 +1,6 @@
 # scep_playground
-just to practice 
+Just to practice 
+
+
+// ALL VISUALS AND IMAGES ARE © Boutin's Production ® //
+
