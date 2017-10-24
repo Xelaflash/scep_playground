@@ -2,5 +2,5 @@
 Just to practice 
 
 
-// ALL VISUALS AND IMAGES ARE © Boutin's Production ® //
+// ALL VISUALS AND IMAGES ARE © Al Ambic Production ® //
 
