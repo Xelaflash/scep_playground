@@ -1,0 +1,136 @@
+/* Begin css nav bar */
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,1),0 1px 0 0 rgba(0,0,0,1);
+  background: #000000;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 1px 2px 0px 2px;
+  display: flex;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  width: 100%;
+  border-bottom: solid;
+  border-color: white;
+  z-index: 1; /* permet de mettre au dessus */
+}
+
+.navbar-wagon-item{
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-wagon-right{
+  display: inline-block;
+  justify-content: space-between;
+  word-spacing: 50px;
+  padding: 0 150px 0 150px;
+}
+
+.navbar-social a {
+  cursor: pointer;
+  font-size: 27px;
+  transition: all .2s ease-in-out;
+}
+
+.fa-youtube-play {
+  color: #EB3324;
+  margin-right: 10px;
+}
+.fa-youtube-play:hover {
+  transform: scale(1.3);
+}
+
+.fa-skype {
+  color: #49AEEA;
+  margin-right: 10px;
+}
+.fa-skype:hover {
+  transform: scale(1.3);
+}
+
+.fa-btc {
+  color: #fff954;
+  margin-right: 10px;
+}
+.fa-btc:hover {
+  transform: scale(1.3);
+}
+
+/* Logo */
+.navbar-wagon-brand img{
+  width: 95px;
+  border-radius: 50%;
+  padding: 13px;
+  height: 90px;
+}
+
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Basic navbar item */
+.navbar-wagon-drop {
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar-wagon-link:hover {
+opacity: 1;
+color: #ff0000;
+border-bottom: solid;
+text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 10px;
+  box-shadow: none;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 13px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+.fa-cogs {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+/* End css nav bar */

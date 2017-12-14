@@ -1,0 +1,59 @@
+.buttons {
+  display: inline-block;
+
+
+}
+
+
+
+/* BUTTONS*/
+.btn-treehouse {
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #ffff05;
+  transition: background 0.3s ease;
+  margin-right: 15px;
+}
+
+
+.btn-treehouse:hover {
+  opacity: 0.9;
+  background: #fb8727;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-medium {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #03ccfe;
+  transition: background 0.3s ease;
+
+}
+
+.btn-medium:hover {
+  text-decoration: underline;
+  color: #fdfdfd;
+  background: #66cc03;
+}
+
+
+.btn-2 {
+  color: #ffffff;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  margin-right: 15px;
+  margin-left: 18px;
+}
+
+.btn-2:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #fe0402;
+}
+/* END BUTTONS*/
